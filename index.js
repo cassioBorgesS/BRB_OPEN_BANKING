@@ -11,6 +11,6 @@ app.get('/' , (req, res) => {
         data: result
     })
 })
-app.listen(3000, () => {
+app.listen(443, () => {
     console.log('rodando')
 })
